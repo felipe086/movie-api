@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom"
-import { Container } from "./styles"
+import { Container } from "./DetailsStyles.styled"
 const API_KEY = process.env.REACT_APP_API_KEY
 
 function Details() {
